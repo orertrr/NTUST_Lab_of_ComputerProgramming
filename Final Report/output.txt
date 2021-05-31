@@ -1,0 +1,67 @@
+Case 1: 123-45
+Case 2: bad code
+Case 3: bad K
+Case 4: 12345-67890
+Case 5: 12345-67890
+Case 6: 12
+Case 7: 1234567890-1234567890
+Case 8: 12
+Case 9: 135
+Case 10: 135
+Case 11: bad code
+Case 12: bad code
+Case 13: bad code
+Case 14: bad code
+Case 15: bad code
+Case 16: bad code
+Case 17: bad code
+Case 18: bad code
+Case 19: bad code
+Case 20: bad code
+Case 21: bad code
+Case 22: bad code
+Case 23: 13579
+Case 24: 97531
+Case 25: bad code
+Case 26: bad C
+Case 27: bad code
+Case 28: 123-45
+Case 29: bad code
+Case 30: bad code
+Case 31: 12
+Case 32: bad code
+Case 33: 12
+Case 34: 12
+Case 35: bad C
+Case 36: bad code
+Case 37: bad C
+Case 38: bad code
+Case 39: bad C
+Case 40: bad code
+Case 41: bad code
+Case 42: bad code
+Case 43: bad code
+Case 44: bad code
+Case 45: bad code
+Case 46: bad code
+Case 47: bad code
+Case 48: bad code
+Case 49: bad code
+Case 50: bad code
+Case 51: bad code
+Case 52: bad code
+Case 53: bad code
+Case 54: bad code
+Case 55: bad code
+Case 56: bad code
+Case 57: bad code
+Case 58: bad code
+Case 59: bad code
+Case 60: bad code
+Case 61: bad code
+Case 62: bad code
+Case 63: bad K
+Case 64: bad C
+Case 65: bad code
+Case 66: bad C
+Case 67: bad code
