@@ -1,0 +1,70 @@
+if (rank1 == 1 && rank1 == 4)
+{
+    //Compare suit
+    if (get_suit(card1[4]) > get_suit(card2[4]))
+        return 1;
+    if (get_suit(card1[4]) < get_suit(card2[4]))
+        return -1;
+
+    //Same suit
+    //Either have Ace
+    if (get_face(card1[0]) == 0)
+        return 1;
+    if (get_face(card2[0]) == 0)
+        return -1;
+    //Compare two biggest face
+    if (get_face(card1[4]) > get_face(card2[4]))
+        return 1;
+    if (get_face(card1[4]) < get_face(card2[4]))
+        return -1;
+}
+
+if (rank1 == 2 || rank1 == 3 || rank1 == 6)
+{
+    //Compare middle card's suit
+    if (get_suit(card1[2]) > get_suit(card2[2]))
+        return 1;
+    if (get_suit(card1[2]) < get_suit(card2[2]))
+        return -1;
+
+    //Same Suit, Compare face
+    if (get_face(card1[2]) > get_face(card2[2]))
+        return 1;
+    if (get_face(card1[2]) < get_face(card2[2]))
+        return -1;
+}
+
+if (rank1 == 5)
+{
+    //Both have Ace
+    if (get_face(card1[0]) == 0 && get_face(card2[0]) == 0)
+    {
+        if (get_suit(card1[0]) > get_suit(card2[0]))
+            return 1;
+        else
+        {
+            return -1;
+        }
+    }
+
+    //Either have Ace
+    if (get_face(card1[0]) == 0)
+        return 1;
+    if (get_face(card2[0]) == 0)
+        return -1;
+
+    //Neither have Ace
+    //Compare face
+    if (get_face(card1[4]) > get_face(card2[4]))
+        return 1;
+    if (get_face(card1[4]) < get_face(card2[4]))
+        return -1;
+
+    //Same biggest face
+    if (get_suit(card1[4]) > get_suit(card2[4]))
+        return 1;
+    else
+    {
+        return -1;
+    }
+}
